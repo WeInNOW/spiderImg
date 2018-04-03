@@ -1,0 +1,46 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000000507dfbd2, pid=7160, tid=0x000000000000180c
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_121-b13) (build 1.8.0_121-b13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.121-b13 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# V  [jvm.dll+0xafbd2]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+
+VM Arguments:
+jvm_args: -Didea.launcher.port=7533 -Didea.launcher.bin.path=G:\JetBrains\IntelliJ IDEA 2016.2\bin -Dfile.encoding=UTF-8 
+java_command: com.intellij.rt.execution.application.AppMain com.todaysoft.knowtions.Main
+java_class_path (initial): G:\Java\jdk1.8.0_121\jre\lib\charsets.jar;G:\Java\jdk1.8.0_121\jre\lib\deploy.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;G:\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;G:\Java\jdk1.8.0_121\jre\lib\javaws.jar;G:\Java\jdk1.8.0_121\jre\lib\jce.jar;G:\Java\jdk1.8.0_121\jre\lib\jfr.jar;G:\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;G:\Java\jdk1.8.0_121\jre\lib\jsse.jar;G:\Java\jdk1.8.0_121\jre\lib\management-agent.jar;G:\Java\jdk1.8.0_121\jre\lib\plugin.jar;G:\Java\jdk1.8.0_121\jre\lib\resources.jar;G:\Java\jdk1.8.0_121\jre\lib\rt.jar;F:\wanpingyu\knowtions\knowtion-spider\target\classes;C:\Users\PC-1\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\PC-1\.m2\repository\org\jsoup\jsoup\1.10.2\jsoup-1.10.2.jar;C:\Users\PC-1\.m2\repository\com\squareup\okhttp3\okhttp\3.6.0\okhttp-3.6.0.jar;C:\Users\PC-1\.m2\repository\com\squareup\okio\okio\1.11.0\okio-1.11.0.jar;G:\JetBrains\IntelliJ IDEA 2016.2\lib\idea_rt.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=G:\Java\jdk1.8.0_121
+CLASSPATH=.;G:\Java\jdk1.8.0_121\lib;G:\Java\jdk1.8.0_121\lib\tools.jar;C:\apache-tomcat-9.0.0.M20\common\lib\servlet-api.jar
+PATH=C:\Python34\;C:\Python34\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;G:\Java\jdk1.8.0_121\bin;C:\Python34\;C:\Python34\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;G:\Java\jdk1.8.0_121\bin;C:\Python34\;C:\Python34\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;G:\Java\jdk1.8.0_121\bin;C:\Windows\System32;G:\apache-maven-3.3.3\bin;G:\TortoiseSVN\bin;G:\nodejs\;G:\apache-maven-3.3.3\bin;G:\Git\bin;C:\Python34\Lib;G:\UltraEdit;G:\apache-maven-3.3.3\bin;G:\TortoiseSVN\bin;G:\nodejs\;G:\apache-maven-3.3.3\bin;G:\Git\bin;C:\Python34\Lib;G:\UltraEdit;G:\apache-maven-3.3.3\bin;G:\TortoiseSVN\bin;G:\nodejs\;G:\apache-maven-3.3.3\bin;G:\Git\bin;C:\Python34\Lib;G:\UltraEdit;C:\Users\PC-1\AppData\Roaming\npm
+USERNAME=PC-1
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 5 Stepping 3, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.23677)
+
+CPU:total 3 (3 cores per cpu, 1 threads per core) family 16 model 5 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, popcnt, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 3930588k(861024k free), swap 7859316k(2480528k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for windows-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 18:21:36 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Jul 11 18:08:36 2017
+elapsed time: 5 seconds (0d 0h 0m 5s)
+
